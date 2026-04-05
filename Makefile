@@ -1,4 +1,4 @@
-CFLAGS = -O3 -std=c23 -Wall -Wextra -Wconversion
+CFLAGS = -O3 -std=c23 -Wall -Wextra -Wconversion -I./
 
 ifeq ($(PLATFORM),linux)
 	CFLAGS += -DPOSIX -DPAGED
